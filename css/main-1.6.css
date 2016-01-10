@@ -160,7 +160,7 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
 }
 
-#introtext .head-sarah {
+#introtext .head-yvonne {
     font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 5em;
     line-height: 100%;
@@ -171,7 +171,7 @@ body {
     margin-left: -10px;
     font-size: 0.7em;
 }
-#introtext .head-brad {
+#introtext .head-nils {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2em;
     line-height: 100%;
@@ -361,7 +361,7 @@ section h2 {
         padding: 30px 0 30px 0;
     }
 
-    #introtext .head-sarah {
+    #introtext .head-yvonne {
         font-size: 7em;
     }
     #introtext .amp {
@@ -370,7 +370,7 @@ section h2 {
         font-size: 0.9em;
         margin-left: -20px;
     }
-    #introtext .head-brad {
+    #introtext .head-nils {
         font-size: 3em;
     }
     #introtext .date {
@@ -472,14 +472,14 @@ section h2 {
     WIDE: Menu
    ============ */
 
-    #introtext .head-sarah {
+    #introtext .head-yvonne {
         font-size: 9em;
    }
     #introtext .amp {
         top: 0;
         font-size: 1em;
     }
-    #introtext .head-brad {
+    #introtext .head-nils {
         font-size: 4em;
     }
     #introtext .date {
@@ -548,14 +548,14 @@ section h2 {
         margin: 0 auto;
     }
 
-    #introtext .head-sarah {
+    #introtext .head-yvonne {
         font-size: 11em;
     }
     #introtext .amp {
         top: 0;
         font-size: 1.1em;
     }
-    #introtext .head-brad {
+    #introtext .head-nils {
         font-size: 5em;
     }
     #introtext .date {
