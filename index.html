@@ -1,348 +1,510 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-        <title>Yvonne and Nils Wedding</title>
-        <meta name="description" content="Welcome to the wedding website for Yvonne and Nils's Big Day!">
-
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-
-        <!-- For iPhone 4 with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-        <!-- For first-generation iPad: -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-
-        <link rel="shortcut icon" href="favicon.ico?v=1">
-
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main-1.6.css">
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-        
-<!--**************************************************************************************************
-http://scal.io -- check us out.
-   _____               __  _             _   _              ____                   _  _              
-  / ____|             / _|| |           | | | |            |  _ \                 | || |             
- | |      _ __  __ _ | |_ | |_  ___   __| | | |__   _   _  | |_) | _ __  __ _   __| || |  ___  _   _ 
- | |     | '__|/ _` ||  _|| __|/ _ \ / _` | | '_ \ | | | | |  _ < | '__|/ _` | / _` || | / _ \| | | |
- | |____ | |  | (_| || |  | |_|  __/| (_| | | |_) || |_| | | |_) || |  | (_| || (_| || ||  __/| |_| |
-  \_____||_|   \__,_||_|   \__|\___| \__,_| |_.__/  \__, | |____/ |_|   \__,_| \__,_||_| \___| \__, |
-                                                     __/ |                                      __/ |
-                                                    |___/                                      |___/ 
-http://scal.io -- check us out.
-****************************************************************************************************-->
-
-        <div id="bg-image">
-            <img src="img/bg-pic.jpg" alt="bg" />
-        </div>
-
-        <div id="bg-container">
-
-            <div class="header-container">
-                <div id="heading" class="wrapper clearfix">
-                    <nav id="nav">
-                        <ul>
-                            <li><a href="#brideandgroom">BRIDE &amp; GROOM</a></li>
-                            <li><a href="#wedding">WEDDING</a></li>
-                            <li><a href="#accommodations">ACCOMMODATIONS</a></li>
-                            <li><a href="#registry">REGISTRY</a></li>
-                            <li><a href="http://goo.gl/forms/6VgPPq4lnt" target="_blank">RSVP</a></li>
-                            <li><a href="http://blog.nilsandyvonne.com" target="_blank">BLOG</a></li>
-                        </ul>
-                    </nav>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nils and Yvonne</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/etline-font.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    <div class="logo"><a href="#">N <span class="fa fa-heart pulse2"></span> Y</div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li><a href="#brideandgroom">Bride and Groom</a></li>
+                                <li><a href="#wedding">Wedding</a></li>
+                                <li><a href="#accommodations">Accommodations</a></li>
+                                <li><a href="#ourstory">Our Story</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="#gifts">Gifts</a></li> 
+                                <li><a target="_blank" href="https://docs.google.com/forms/d/1FJz4UUJx9gTu9wFpo9HM7oQZSu11rrOXCklldZN4Kys/viewform">RSVP</a> </li>
+                            </ul>
+                            
+                            <!-- REMOVED
+                            <ul class="member-actions">
+                                <li><a href="#download" class="login">Log in</a></li>
+                                <li><a href="#download" class="btn-white btn-small">Sign up</a></li>
+                            </ul>
+                            --> 
+                            
+                        
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <h1 style="margin-top: 100px;">Nils + Yvonne</h1>
+                        <p class="intro">TYING THE KNOT <br /> November 26, 2016</p>
+                        <!-- <a target="_blank" href="h#">SUBMIT YOUR RSVP</a> 
+                        <a href="#" class="btn btn-accent btn-large">Learn more</a> -->
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
+    </section>
+    <section class="intro section-padding" id="brideandgroom">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol"> 
+                    <h3>The Bride</h3>
+                    <p><img class="thumb" src="img/yvonneThumb.jpg" alt="Yvonne" />  Yvonne is the older So Sistah, and was born and raised in Houston, TX by the most (for)giving parents ever. Growing up, Yvonne had a gazillion hobbies including piano, violin, tennis, dance, Chinese school, math classes, etc. and she wants her parents to know the eternal appreciation she feels for letting their children rob them of their youth. <br /><br />
 
-            <div class="main-container">
-                <div class="main wrapper clearfix">
+Yvonne has always been infinitely curious, constantly asking why or seeking answers. Her stubbornness and passion for solving problems, often in creative or unconventional ways, eventually led her into the world of user experience design. After living in NY working in advertising and consulting, she now works as a designer at a software company in the SF bay area. <br /><br />
 
-                    <header>
-                        <div id="introtext">
-                            <span class="head-yvonne">Yvonne &amp; Nils</span>
-                            <!--
-                            <span class="head-nils">&nbsp;
-                                <span class="amp">&amp;</span> 
-                                NILS
-                            </span>
-                            -->
-                            <div class="date">SEPTEMBER 26<sup>th</sup>, 2016</div>
-                        </div>
-                    </header>
-
-                    <div class="clearfix"></div>
-
-                    <section id="brideandgroom" class="clearfix">
-
-                        <h1>The Bride and Groom</h1>
+Yvonne is the quite literally the polar opposite of Nils. She’s still stumped as to why he loves her so much. <br />
+</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol"> 
+                    <h3>The Groom</h3>
+                    <p> <img class="thumb" src="img/nilsThumb.jpg" alt="Nils" /> Nils is the eldest of the three half-German and half-Vietnamese Schimmelmann siblings. He was born in Los Angeles and raised in San Diego where he developed a love for the outdoors and strived to become a junior ranger at every National Park he visited. At age 9, the Schimmelmann family moved to Indiana and Nils started to consider himself a midwestern boy as he joined the Boy Scouts and spent more time playing in the local forests and creeks. Nils also took an interest in computers, checking out books from the local library to program his own games, and building his own PC to play them. This hobby would later lead to his BS in Computer Science and MS in Bioinformatics and bring him back to California. After graduation, Nils moved back to to the Bay Area to work in Silicon Valley. In the Bay, he expanded his interests to include snowboarding, rock climbing, and weight training at the local gym.</p>
+                </div>
+                
                                 
-                        <div class="column left">
+                
+<!--              
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe033;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>Easily Customised</h5>
+                        <p>Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered Sketch file and bring your product to life.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe030;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>Modern Design</h5>
+                        <p>Designed with modern trends and techniques in mind, Sedna will help your product stand out in an already saturated market.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe046;" class="icon"></span>
+                    </div>
+                    <div class="intro-content last">
+                        <h5>Responsive Development</h5>
+                        <p>Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
+                    </div>
+                </div>
+                -->
+                
+            </div>
+        </div>             
+    </section>
+    
+    <section class="features section-padding" id="wedding">
+        <div class="container">
+            <div class="row">
+        
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <img style="width: 100%; border: 3px solid #fff;" src="img/boundaryoak.png" alt="Boundary Oak Golf Course" />
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <h3>The Wedding</h3> 
+                    <p> The Clubhouse at Boundary Oak <br />
+3800 Valley Vista Rd <br />
+Walnut Creek, CA 94598 <br /><br />
 
-                            <h2>YVONNE</h2>
-                            <p>
-                                <img src="img/yvonneThumb.jpg" class="thumb" alt="Yvonne" />
-                                Yvonne is most thankful to her parents for the gift of two loving big brothers &amp; five amazing role-model sisters. As the second-youngest, Yvonne spent her childhood twirling &amp; dancing around, putting on talent shows for her parents &amp; grandparents. Her creative spirit and eye for design was established at a young age, as she highly disapproved of Mattel’s © furnishings and décor within her Barbie House. If Barbie needed an interior makeover (which was frequent) Yvonne looked through Sunday newspaper ads &amp; IKEA magazines for inspiration, drew the new contents by hand and placed them as backdrops in the Barbie house. After graduation from Mater Dei High School, Yvonne explored the metropolitan life in San Francisco and graduated with a BS in Interior Design from San Francisco State University. Yvonne is adding to her vows that she will forever allow a one-room “man-den” with it’s contents and décor subject to Nils’s discretion.</p>
+<strong>Saturday, November 26, 2016 <br />
+3:00 PM <br /><br /> </strong>
 
-                        </div><!--end column-->
-                        <div class="column right">
+Reception and fun times to follow! <br /><br /> 
 
-                            <h2>NILS</h2>
-                            <p>
-                                <img src="img/nilsThumb.jpg" class="thumb" alt="Nils" />
-                                Nils is the eldest of the three half-German and half-Vietnamese Schimmelmann siblings. He was born in Los Angeles and raised in San Diego where he developed a love for the outdoors and strived to become a junior ranger at every National Park he visited. At age 9, the Schimmelmann family moved to Indiana and Nils started to consider himself a midwestern boy as he joined the Boy Scouts and spent more time playing in the local forests and creeks. Nils also took an interest in computers, checking out books from the local library to program his own games, and building his own PC to play them. This hobby would later lead to his BS in Computer Science and MS in Bioinformatics and bring him back to California. After graduation, Nils moved back to to the Bay Area to work in Silicon Valley. In the Bay, he expanded his interests to include snowboarding, rock climbing, and weight training at the local gym.
-                        </div><!--end column-->
-
-                        <div class="clearfix"></div>
-
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-
-                            <h2>HOW WE MET</h2>
-                            <p>
-                            Nils and Yvonne met each other through mutual friends at the local gym. Yvonne initially thought Nils was “obnoxious” and did not think much of him until Nils’ birthday party where she learned that he loved snowboarding. This lead to her into trying to entrap him into being her ride-share and cabin-share but not before Nils thought that Yvonne was “extremely negative”. Luckily, these short sighted problems went away and Nils and Yvonne would later go out on many “events” because she did not want to call their relationship “dating”. Fast forward 6 months later, Yvonne finally agreed that they were “dating”.
-                            </p>
-                        </div><!--end column-->
-
-                        <div class="column full">
-                             
-                            <figure class="responsive-image proposal" data-media="img/onknee-small.jpg" data-media480="img/onknee-small.jpg" data-media768="img/onknee-medium.jpg" data-media1140="img/onknee-large.jpg" title="Nils Proposing To Yvonne">
-                                <noscript>
-                                    <img src="img/onknee-large.jpg" alt="Nils Proposing To Yvonne" />
-                                </noscript>
-                            </figure>
-
-                            <h2>THE ENGAGEMENT</h2>
-                            <p>
-                            Nils and Yvonne had been dating for nearly 3 years when Nils decided that they should go for a walk in San Francisco on Black Friday to burn off the turkey. They hiked to the Ferry Building, up to the top of the Coit Tower, where Nils then got down on one knee to propose to Yvonne. Yvonne was completely shocked and said “yes”!
-                            </p>
-                                                        
-                        </div><!--end column-->
-
-                    </section>
-
-                    <section id="wedding" class="clearfix">
-
-                        <h1>Wedding</h1>
-
-                        <div class="column left">
-                            <h2>CEREMONY</h2>
-                            <p>
-                                The Clubhouse at Boundary Oak <br />
-                                3800 Valley Vista Rd  <br />
-                                Walnut Creek, CA 94598 <br />
-                                <br />
-                                Saturday, November 26, 2016 <br />
-                                3:00 PM  <br />
-                                <br />
-                                *Reception to follow <br />
-
-                                <img src="img/theinn-large.png" class="theinn" alt="The Inn at Rancho Santa Fe" />
-                            </p>
-                            
+<a target="_blank" href="https://www.google.com/maps/dir//The+Clubhouse+at+Boundary+Oak,+3800+Valley+Vista+Rd,+Walnut+Creek,+CA+94598,+United+States/@37.9240079,-121.9969479,15z/data=!4m12!1m3!3m2!1s0x0:0x88253a1a406c051c!2sThe+Clubhouse+at+Boundary+Oak!4m7!1m0!1m5!1m1!1s0x8085607395ef5653:0x88253a1a406c051c!2m2!1d-121.9969479!2d37.9240079" class="btn btn-ghost btn-accent btn-large">Get Directions</a>
+                    
+                
+                </div>
+            </div>            
+        </div> 
 
 
-                        </div><!--end column--> 
-                        <div class="column right">
-                            <h2>SCHEDULE OF EVENTS</h2>
-                            <p>
-                                Rehearsal Dinner <br />
-                                Thursday, September 5th at 8pm<br /><br />
-                                Golf <br />
-                                Friday, September 6th at 9am<br /><br />
-                                Ceremony <br />
-                                Friday, September 6th at 6pm (reception to follow)<br /><br />
-                                Breakfast &amp; Bocce <br />
-                                Saturday, September 7th at 10am<br />
-                            </p>
-                        </div><!--end column--> 
 
-                        <div class="clearfix"></div>
+            <!--
+                <div class="col-md-5 col-md-offset-7">
+                    <div class="feature-list">
+                        <h3>The Wedding</h3>
+                        <p>Present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in to clients.</p>
+                        <ul class="features-stack">
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe03e;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Universal & Responsive</h5>
+                                    <p>Sedna is universal and will look smashing on any device.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe040;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>User Centric Design</h5>
+                                    <p>Sedna takes advantage of common design patterns, allowing for a seamless experience for users of all levels.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">
+                                    <span data-icon="&#xe03c;" class="icon"></span>
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Clean reusable code</h5>
+                                    <p>Download and re-use the Sedna open source code for any other project you like.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="device-showcase">
+        
+        <img style="float: left; border: 3px #fff;" src="img/boundaryoak.png" alt="Boundary Oak Golf Course" />
+       
 
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <h2>BRIDAL PARTY</h2>
-
-                        <div class="column left bp">
-                            
-                            <h2>Bridesmaids </h2>
-                            <div class="column left">
-                                <p>
-                                Coming Soon!<br />
-                                </p>
-                            </div>
-                            <div class="column right">
-                                <p>
-                                </p>
-                            </div>
-
-                        </div><!--end column--> 
-                        <div class="column right bp">
-
-                            <h2>Groomsmen</h2> 
-                            <div class="column left">
-                                <p>
-                                Coming Soon!<br />
-                                </p>
-                            </div>
-                            <div class="column right">
-                                <p>
-                                </p>
-                            </div>
-
-                        </div><!--end column-->           
-                    </section>
-
-                    <section id="accommodations" class="clearfix">
-
-                        <h1>Accommodations</h1>
-
-                        <div class="column left">
-
-                            <h2>HOTELS</h2>
-                            <p>
-                                (At the venue) <br />
-                                The Inn at Rancho Santa Fe <br />
-                                5951 Linea Del Cielo <br />
-                                Rancho Santa Fe, CA 92067 <br />
-                                <a href="tel:1-858-756-1131">(858) 756-1131</a> <br />
-                                $279 <br /> 
-                                - <br />
-                                Morgan Run Resort &amp; Club (1.9 miles away) <br />
-                                5690 Cancha De Golf <br />
-                                Rancho Santa Fe, CA 92091 <br />
-                                <a href="tel:1-866-599-6674">(866) 599-6674</a> <br />
-                                $90 <br />
-                                - <br />
-                                (Closer to the beach) <br />
-                                Courtyard San Diego Solana Beach/Del Mar (4.5 miles away) <br />
-                                717 S Hwy 101 <br />
-                                Solana Beach, CA <br />
-                                <a href="tel:1-858-792-8200">(858) 792-8200</a> <br />
-                                $109 <br />
-                            </p>
-                        </div><!--end column-->
-
-                        <div class="column right">
-                            <h2>DIRECTIONS</h2>
-                            <p>
-                                Northbound from San Diego <br /><br />
-                               
-                                Take Interstate 5 North to the Villa de La Valle exit #36.  Turn right (east) onto Via de La Valle, and proceed for 4 miles. After crossing La Gracia, turn left on Via de Santa Fe following the signs to Rancho Santa Fe.  At the first stop sign, turn left onto Paseo Delicias and drive 2 blocks to a five way stop.  Take a slight right onto Linea del Cielo and proceed for one block.  The Inn is located on the left side of the road at 5951 Linea del Cielo.
-                                <br /><br />
-
-                                Southbound from LA, Riverside &amp; OC<br /><br />
-                               
-                                Take Interstate 5 South to the Lomas Santa Fe exit #37.  Turn left (east) onto Lomas Santa Fe, and proceed 4.5 miles.  The road name will change to Linea Del Cielo.  The Inn is located on the right side of the road at 5951 Linea del Cielo.
-                                <br />
-                            </p>
-                            
-                        </div><!--end column-->
-
-                        <div class="clearfix"></div>
-
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-
-                            <h2>VICINITY MAP</h2>
-
-                            <div id="gmap">
-                                <iframe src="https://maps.google.com/maps/ms?msid=205751736116737027595.0004d416d6aa1647722db&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=32.91418,-116.982422&amp;spn=0.806997,1.167297&amp;z=9&amp;output=embed"></iframe>
-                                <br />
-                                <small><a href="https://maps.google.com/maps/ms?msid=205751736116737027595.0004d416d6aa1647722db&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=32.91418,-116.982422&amp;spn=0.806997,1.167297&amp;z=9&amp;output=embed" target="_blank">View larger map</a></small>
-                            </div>
-                        </div>
-
-                        <div class="clearfix"></div>
-
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-                            <h2>ABOUT RANCHO SANTA FE</h2>
-                            <p>
-                                Choose to relax and soak up the California sunshine at the resort's pool, or meander across the street to explore the boutiques, jewelry stores, restaurants and antique shops at The Village of Rancho Santa Fe (fondly referred to as "The Village" by the residents).  A friday morning tee time will be arranged for those who are interested, at Rancho Santa Fe Golf Club- a private, 18-hole championship golf course considered one of the Top 20 Best Golf Courses in California.
-                            </p>
-                        </div><!--end column-->
+            <div class="devices">
+                <div class="ipad-wrap wp1"></div>
+                <div class="iphone-wrap wp2"></div>
+            </div>
+             
+        </div>
+        <div class="responsive-feature-img"><img src="img/boundaryoak.png" alt="Boundary Oak Golf Course"></div>
+        
+-->        
+    </section>
+    
+    
+     <section class="features-extra section-padding" id="accommodations">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                    <h3>Accommodations</h3>
+                    <p>Here are some recommended accommodations from our venue. We have room blocks at each of them, but we also recommend looking into Airbnb and VRBO, especially if you have a large party or are staying for a while. If you prefer to stay in San Francisco, the <a target="_blank" href="https://www.bart.gov/stations/powl/directions?tofrom=to&address=walnut%20creek&station=POWL&mode=TRANSIT">BART ride</a> (public transit train) to Walnut Creek is about 35-45 min from downtown SF. <a target="_blank" href="https://www.uber.com/">Uber</a> and <a target="_blank" href="https://www.lyft.com/
+">Lyft</a> are also the most popular options (often with discounts on your first ride) for getting around if you will not have a car. <br /><br /> </p> 
+                </div>
             
-                        <div class="column full">
-                            <h2>HISTORY OF THE INN</h2>
-                            <p>
-                                Ninety years ago, construction began on La Morada (“dwelling” in Spanish), the first building in what would become Rancho Santa Fe. Now known as The Inn at Rancho Santa Fe, “The Inn” to locals, it was then a guesthouse for prospective land buyers, a place to “put them up” while they looked at lots owned by the Santa Fe Land Improvement Company. The company, a subsidiary of the Santa Fe Railway, had bought up parcels, planting eucalyptus trees for railroad spikes. But as history has so often shown, not everything goes according to plan. The wood, the company discovered, was too soft to hold the spikes. It was on to plan B.
-                            </p>
-                            <p>
-                                That plan turned out to be fortuitous. It led to the master-planned community of Rancho Santa Fe, designed by Lilian Rice, a National City-born architect and U.C. Berkeley graduate, who would earn acclaim for her signature Spanish Colonial Revival style. Rice designed the village’s key commercial and residential buildings, many now considered so historically significant that they are listed on the National Register of Historic Places.
-                            </p>
-                            <p>
-                                Throughout the decades The Inn has been a favorite destination for many years of famous and influential people.  In 1932, singer-actor Bing Crosby purchased one of Juan Osuna’s original adobes with 50 acres, and hired Lilian Rice as his architect. Legendary architect Frank Lloyd Wright was married in the parlor of the Inn in 1928.   
-                            </p>
-                            <p>
-                                Just as the architecture of the missions tells a story about the history of California, so does Lilian Rice’s legendary design of The Inn. It is a perfect representation of old California charm and Rice's belief that true beauty lies in simplicity rather than ornateness. The Inn is a perfect reflection of Rice's dream - a place where time stands still amidst the simplistic, natural beauty that is Rancho Santa Fe.  &nbsp;&nbsp;
-                                
-                                Go <a href="http://www.theinnatrsf.com/press_media/" target="_blank">here</a> and <a href="http://ranchandcoast.com/DETOUR/27/destinations/4506/THEN-NOW-INN-AT-RANCHO-SANTA-FE/IMAGE/10526/" target="_blank">here</a> for more information.
+                <div class="col-md-4" style="text-align: center;">
+                    <p><a target="_blank" href="http://embassysuites3.hilton.com/en/hotels/california/embassy-suites-walnut-creek-SFOPHES/index.html">Embassy Suites Walnut Creek</a> <br />
+                    1345 Treat Boulevard, Walnut Creek, CA 94597 <br />
+(925) 934-2500 </p>
+                </div>
+                <div class="col-md-4" style="text-align: center;">
+                    <p><a target="_blank" href="http://www.marriott.com/hotels/travel/oakwc-walnut-creek-marriott/">Walnut Creek Marriott</a> <br />
+                    2355 North Main Street Walnut Creek, CA 94596 <br />
+(925) 934-2000 </p>
+                </div>
+                <div class="col-md-4" style="text-align: center;">
+                    <p><a target="_blank" href="http://www.hiewalnutcreekhotel.com/">Holiday Inn Express Walnut Creek</a> <br />
+                    2730 North Main Street, Walnut Creek, CA 94597 <br />
+(925) 932-3332 </p>
+                </div>
+            </div>
+    </section>
+    
+    
+    
+    <!--
+    <section class="features-extra section-padding" id="accommodations">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="feature-list">
+                        <h3>Accommodations</h3>
+                        <p>We recommend checking out Airbnb and VRBO for  </p>
+                        <p>Nam vehicula malesuada lectus, interdum fringilla nibh. Duis aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Proin condimentum et leo quis fringilla.
+                        </p>
+                        <a href="#" class="btn btn-ghost btn-accent btn-small">What's Sketch?</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="macbook-wrap wp3"></div>
+        <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
+    </section>
+-->
+    
+    <section class="hero-strip section-padding">
+        <div class="container">
+            <div class="col-md-12 text-center">
+             <!--   <h2>
+                Customise Sedna with the included <span class="sketch">Sketch <i class="version">3</i></span> file
+                </h2> -->
+                <p>We are all a little weird, and life's a little weird, and when we find someone whose weirdness is compatible with ours, we join up with them and fall in mutual weirdness and call it love.  -Dr. Seuss</p>
+                <a href="#" class="btn btn-ghost btn-accent btn-large">Download now!</a>
+                <div class="logo-placeholder floating-logo"><img src="img/lovebirds.png" alt="Lovebirds"></div>
+            </div>
+        </div>
+    </section>
 
-                            </p>
-                        </div><!--end column-->
+    
+    <section class="blog-intro section-padding" id="ourstory">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Our Story</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <h5>HER VERSION </h5>
+                    <p>Met Nils through some friends at the gym <br />
+Didn’t think I’d ever go on a date with him <br />
+He was really obnoxious and loud in a crowd <br />
+He said he wasn’t going to stop chasing me, this he vowed <br /><br />
 
-                    </section>
+I finally gave in to a coffee date as he lured me with snow <br />
+It’s a mutual interest, I couldn’t say no <br />
+After a couple of dates that went real well <br />
+He asked me to be his girlfriend and I thought, ‘oh fine, what the hell’ <br /><br />
 
-                    <section id="registry" class="clearfix">
+We went on adventures and traveled the world <br />
+Ran across landscapes and delightfully twirled <br />
+He got to know me, I got to know him <br />
+Never fails to cheer me up when things seem grim  <br /><br />
 
-                        <h1>Registry</h1>
+As it turns out, he’s the sweetest guy a girl could ever hope for <br />
+Even when I’m mean, sick, or grumpy he still loves me for sure <br />
+If anything I would say this love is rare  <br />
+So I said yes when he gave me a shiny ring to wear </p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <h5>HIS VERSION </h5>
+                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="blog text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="photos/pescadero03.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="photos/pescadero03.jpg" alt="Pescadero Photo"/>
+                                </div>
+                            </a> <br /><br />
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="photos/pescadero04.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="photos/pescadero04.jpg" alt="Pescadero Photo"/>
+                                </div>
+                            </a> <br /><br />
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="photos/pescadero05.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="photos/pescadero05.jpg" class="single_image" alt="Pescadero Photo"/>
+                                </div>
+                            </a> <br /><br />
+                        </figure> 
+                    </article>
+                </div>
+                
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="photos/pescadero06.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="photos/pescadero06.jpg" alt="Pescadero Photo"/>
+                                </div>
+                            </a> <br /><br />
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="photos/pescadero07.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="photos/pescadero07.jpg" alt="Pescadero Photo"/>
+                                </div>
+                            </a> <br /><br />
+                        </figure>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post">
+                        <figure>
+                            <a href="photos/pescadero08.jpg" class="single_image">
+                                <div class="blog-img-wrap">
+                                    <div class="overlay">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <img src="photos/pescadero08.jpg" class="single_image" alt="Pescadero Photo"/>
+                                </div>
+                            </a> <br /><br />
+                        </figure> 
+                    </article>
+                </div>
 
-                        <div class="column full">
-                        
-                            <p>Due to the nature of city life (not a great deal of storage space), we have decided to embrace the HONEYMOON REGISTRY site.  However, if your prefer the traditional route, we are registered at Williams Sonoma, Sur La Table, &amp; Macy's.  A link for the registry sites will be coming soon!</p>  
-                            <p>
-                            LOVE NOTES FOR YVONNE &amp; NILS <br />
-                            Email us at ... <br />
-                            </p>
-                            
-                        </div><!--end column-->
-               
-                    </section>
 
-                    <div style="height: 300px"></div>
+                <a target="_blank" href="http://blog.nilsandyvonne.com/" class="btn btn-ghost btn-accent btn-small">More on the Tumblr </a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial-slider section-padding text-center" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <h3 style="color: #fff;">Frequently Asked Questions</h3> <br />
+                    <div class="flexslider">
+                        <ul class="slides" style="width: 80%;">
+                            <li>
+                                <div class="avatar"><img src="img/avatar.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"What is the parking situation like?"</h2>
+                                <p class="author">There is plenty of parking at the clubhouse! Not only is it plentiful, but the parking spaces are actually large enough to fit your vehicle! </p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/mani.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"Do I need to rent a car?"</h2>
+                                <p class="author">If you plan on staying for a few more days or plan on visiting some of the national parks or go up to see some snow in Tahoe, renting a car is MOST DEFINITELY recommended. Otherwise, as mentioned before, Uber and Lyft are very popular and reliable here in the bay area. </p>
+                            </li>
+                            <li>
+                                <div class="avatar"><img src="img/130.jpg" alt="Sedna Testimonial Avatar"></div>
+                                <h2>"Where are you registered?"</h2>
+                                <p class="author">Nowhere! We do not have a lot of storage space, so we are forgoing the registry tradition. Instead, we suggest gifts in the form of Red Envelopes, a traditional Chinese gift given at weddings to wish the couple well as they embark on their new life together. Actual red envelopes are optional as greeting cards or other envelopes work wonderfully as well. We would also be more than happy to donate to your favorite charity in our name! All that said, the best gift we could ever receive is your presence at our wedding! </p>
 
-                </div> <!-- #main -->
-            </div> <!-- #main-container -->
-        </div> <!-- #bg-container -->
-
-        <script src="js/main-1.6.js"></script>
-
-        <script>
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-XXXXXXX-XX']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
-    </body>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sign-up section-padding text-center" id="gifts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Gifts</h3>
+                    <p>Embrace the non-registry... </p>
+                    <form class="signup-form" action="#" method="POST" role="form">
+                        <div class="form-input-group">
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-lock"></i><input type="text" class="" placeholder="Enter your password" required>
+                        </div>
+                        <button type="submit" class="btn-fill sign-up-btn">Please remember to RSVP!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="to-top">
+        <div class="container">
+            <div class="row">
+                <div class="to-top-wrap">
+                    <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+              <!--  <div class="col-md-7">
+                   <div class="footer-links">
+                        <ul class="footer-group">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="http://tympanus.net/codrops/licensing/">Licence</a></li>
+                            <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
+                            <li><a href="http://www.peterfinlan.com/">Peter Finlan</a></li>
+                        </ul> -->
+                        <p style="padding: 20px 0px 4px 0px;">Mad <span class="fa fa-heart pulse2"></span> to all of our family and friends. </p> 
+                        <p>Send love notes to <a target="_blank" href="mailto:nilsandyvonne@gmail.com">nilsandyvonne@gmail.com</a> </p>                    </div>
+                </div>
+              <!--  <div class="social-share">
+                    <p>Share Sedna with your friends</p>
+                    <a href="https://twitter.com/peterfinlan" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
+                </div> 
+            </div> -->
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="bower_components/retina.js/dist/retina.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+</body>
 </html>
