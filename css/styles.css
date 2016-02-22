@@ -573,7 +573,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #333844 url("../photos/beach01-min.jpg") no-repeat center center;
+  background: #333844 url("../photos/beach01-web.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -689,7 +689,7 @@ Features-stack
 .testimonial-slider
 ========================================================================== */
 .testimonial-slider {
-  background: url("../img/faq-hakone.jpg") no-repeat center center;
+  background: url("../photos/faq-hakone-web.jpg") no-repeat center center;
   background-size: cover; }
   .testimonial-slider .avatar {
     width: 82px;
