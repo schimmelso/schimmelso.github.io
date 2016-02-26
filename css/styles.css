@@ -81,7 +81,7 @@ h5 {
   padding: 15px 40px; }
 
 .btn-margin-right {
-  margin-right: 20px; }
+  margin-right: auto; }
 
 section.intro, section.features-extra, section.sign-up {
   background: #fff; }
@@ -630,7 +630,8 @@ Features-stack
     width: 230px;
     height: 230px;
     position: absolute;
-    bottom: -285px;
+    /* bottom: -285px; */
+    bottom: -370px; 
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
