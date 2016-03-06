@@ -511,7 +511,8 @@ Intro
 Features-stack
 ========================================================================== */
 .features {
-  position: relative; }
+  position: relative; 
+  padding-bottom: 120px; }
   
   .features .leftcol {
     padding-right: 50px; }
