@@ -188,6 +188,12 @@ ul li {
   text-transform: capitalize;
   background-color: #000;
   border-radius: 4px; }
+  
+.centerImage
+{
+text-align: center;
+display: block;
+}
 
 /* ==========================================================================
 Animations
@@ -572,6 +578,15 @@ Features-stack
 .devices {
   position: relative; }
 
+.features .logo-placeholder {
+    width: 900px;
+    height: 230px;
+    position: absolute;
+    top: -160px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* ==========================================================================
 .features-extra
 ========================================================================== */
@@ -588,6 +603,15 @@ Features-stack
     top: 114px;
     z-index: 0;
     left: 50%; }
+
+.features-extra .logo-placeholder {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 /* ==========================================================================
 .hero-strip
